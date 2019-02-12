@@ -1,4 +1,4 @@
-name: tensorflow-tutorials
+name: tensorflow-gpu-tutorials
 
 dependencies:
   - python=3.6.*
@@ -7,5 +7,4 @@ dependencies:
   - pandas=0.24.*
   - scikit-learn=0.20.*
   - tensorflow-gpu
-  - pip:
-    - xgboost
+  - py-xgboost-gpu=0.80.*
