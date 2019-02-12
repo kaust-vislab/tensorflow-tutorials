@@ -10,13 +10,13 @@ Collection of Jupyter notebooks demonstrating best-practices for using TensorFlo
 Create the environment...
 
 ```bash
-$ conda env create -f environment.yml
+$ conda env create -f environment-gpu.yml
 ```
 
 ...then activate the environment...
 
 ```bash
-$ source activate $(head -1 $environment.yml | cut -d' ' -f2)
+$ source activate $(head -1 $environment-gpu.yml | cut -d' ' -f2)
 ```
 
 ...then launch the Jupyter notebook server.
@@ -24,3 +24,5 @@ $ source activate $(head -1 $environment.yml | cut -d' ' -f2)
 ```bash
 $ jupyter notebook
 ```
+
+If you don't have access to GPU accelerated hardware then most all of the code should work but you will need to create and activate the Conda environment defined by the `environment-cpu.yml`.
