@@ -1,0 +1,11 @@
+name: null
+
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python=3.7
+  - jupyterlab=0.35
+  - kaggle=1.5
+
