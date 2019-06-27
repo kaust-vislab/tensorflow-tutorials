@@ -10,4 +10,8 @@ dependencies:
   - h5py=2.9
   - jupyterlab=0.35
   - kaggle=1.5
-
+  - cudatoolkit=10.0
+  - cudnn=7.6
+  - pip=19.1
+  - pip:
+    - tensorflow-gpu==2.0.0b1
